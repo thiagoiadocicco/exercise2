@@ -1,0 +1,21 @@
+const nome = 'Silvana'
+const sexo = 'F'
+const idade = 75
+const contribuicao = 20
+
+if (contribuicao >= 30) {
+  return console.log('Silvana você pode se aposentar!')
+} else {
+  console.log('Silvana, você ainda não pode se aposentar!')
+}
+
+const nome1 = 'Carlos'
+const sexo1 = 'M'
+const idade1 = 40
+const contribuicao1 = 55
+
+if(contribuicao1 <= 35){
+  return console.log('Carlos, você não pode se aposentar!')
+} else {
+  console.log('Carlos, você pode se aposentar!')
+}
